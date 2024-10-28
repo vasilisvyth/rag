@@ -1,0 +1,6 @@
+openai_key
+.vscode/
+models/
+__pycache__/
+*deepeval*
+dummy.py

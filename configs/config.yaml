@@ -1,0 +1,22 @@
+# config.yaml
+top_k: 2
+chunk_size: 1000
+chunk_overlap: 200
+embed_model_name: "text-embedding-ada-002"  # Set your OpenAI model name here
+pdf_name: "Understanding_Climate_Change.pdf"
+data_path: "data"
+save_dir: "models"
+# load_index: True
+num_questions: 5
+use_hyde: True
+splitter_type: "character"  # Set splitter type to "recursive", "character", or "semantic"
+# Splitter configurations
+splitters:
+  recursive:
+    chunk_size: 1000
+    chunk_overlap: 200
+  character:
+    chunk_size: 1000
+    chunk_overlap: 200
+  semantic:
+    breakpoint_threshold_type: "percentile"

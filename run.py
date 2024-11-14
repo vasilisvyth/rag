@@ -20,8 +20,8 @@ CONFIGS_FOLDER = 'configs'
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-if "OPENAI_API_KEY" not in os.environ:
-    os.environ["OPENAI_API_KEY"] = getpass.getpass("Enter your OpenAI API key: ")
+# if "OPENAI_API_KEY" not in os.environ:
+#     os.environ["OPENAI_API_KEY"] = getpass.getpass("Enter your OpenAI API key: ")
 
 from eval_utils import evaluate_rag, create_prompt_template
 

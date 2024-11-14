@@ -20,15 +20,15 @@ For evaluation, we also utilize the following objects in `metrics.py`:
 
 ### Set Environment Variables:
 
-pip install python-dotenv
+`pip install python-dotenv`
 
 In the root directory of your project, create a file named .env and add the following variables:
 
-LANGCHAIN_TRACING_V2=true
+`LANGCHAIN_TRACING_V2=true
 LANGCHAIN_API_KEY="YOUR_LANGCHAIN_KEY"
 LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
 LANGCHAIN_PROJECT="YOUR_PROJECT_NAME"
-OPENAI_API_KEY="YOUR_OPENAI_KEY"
+OPENAI_API_KEY="YOUR_OPENAI_KEY"`
 
 Replace each placeholder (e.g., YOUR_LANGCHAIN_KEY, YOUR_PROJECT_NAME, and YOUR_OPENAI_KEY) with your actual values.
 

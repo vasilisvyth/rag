@@ -1,3 +1,5 @@
+Data can be found [here](https://drive.google.com/drive/u/0/folders/13n4DS6MMDCl3oM_LnALv-PW-8XTlocmn)
+
 Execute `run.py` to obtain the RAG results.
 
 ### Chunking
